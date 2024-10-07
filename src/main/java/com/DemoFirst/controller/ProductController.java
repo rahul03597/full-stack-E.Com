@@ -19,7 +19,6 @@ public class ProductController {
      public List<Product> getProducts(){
          return  service.getProducts();
      }
-
 //     get data by id
      @GetMapping("/products/{productId}")
      public Product getProductById(@PathVariable int productId){
